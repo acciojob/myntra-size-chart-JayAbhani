@@ -1,27 +1,42 @@
 
 /* Your CSS Code here. */
+
 body {
       font-family: Arial, sans-serif;
-      padding: 20px;
+      padding: 30px;
     }
+
     table {
-      width: 80%;
+      width: auto;
       border-collapse: collapse;
-      margin: 0 auto;
     }
-    thead {
-      background-color: #f2f2f2;
+
+    thead th {
+      background-color: #b83d3d;
+      color: white;
+      padding: 10px 15px;
+      border: 1px solid #000;
     }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 12px 15px;
+
+    tbody td {
+      padding: 10px 15px;
+      border: 1px solid #000;
       text-align: center;
     }
-    th {
-      font-weight: bold;
+
+    tbody tr:nth-child(1) td {
+      background-color: #e79e9e;
     }
-    caption {
-      margin-bottom: 15px;
-      font-size: 1.5em;
+
+    tbody tr:nth-child(2) td {
+      background-color: #e2cfcf;
+    }
+
+    tbody tr:nth-child(3) td {
+      background-color: #dddddd;
+    }
+
+    td:first-child {
       font-weight: bold;
+      text-align: left;
     }
